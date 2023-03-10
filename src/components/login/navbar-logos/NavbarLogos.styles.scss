@@ -1,0 +1,33 @@
+.logos-container{
+    display: flex;
+    align-content: start;
+}
+
+.logo1-div{
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.logo2-div{
+    margin-top: 3%;
+    margin-left: 15px;
+}
+.logo1-img{
+    height: 35px;
+    width: 137.89px;
+}
+.logo2-img{
+    height: 38px;
+    width: 99px;
+}
+@media only screen and (max-width: 800px){
+    .logo1-img{
+        height: 35px;
+        width:60.89px;
+    }
+    .logo2-img{
+        height: 35px;
+        width: 60px;
+    }
+    
+}
