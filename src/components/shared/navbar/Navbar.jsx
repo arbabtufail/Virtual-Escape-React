@@ -1,6 +1,6 @@
 import "./Navbar.styles.scss";
-import NavbarLogos from "components/login/navbar-logos/NavbarLogos";
-import NavbarButtons from "components/main-menu/navbar-buttons/NavbarButtons";
+import NavbarLogos from "components/shared/navbar/navbar-logos/NavbarLogos";
+import NavbarButtons from "components/shared/navbar/navbar-buttons/NavbarButtons";
 const Navbar = ({ halfNavbar }) => {
   return halfNavbar ? (
     <NavbarLogos />
