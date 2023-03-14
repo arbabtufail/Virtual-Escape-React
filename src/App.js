@@ -1,10 +1,18 @@
 import "./App.css";
-import MainMenu from "containers/main-menu/MainMenu";
+import { Route, Routes } from "react-router-dom";
+import LoginRoute from "containers/routes/login/Login";
+import PrivateRoutes from "containers/routes/PrivateRoutes";
+import Home from "containers/routes/home/Home";
 
 function App() {
   return (
     <div className="App">
-      <MainMenu />
+      <Routes>
+        <Route element={<PrivateRoutes />}>
+          <Route path="/home" element={<Home />} />
+        </Route>
+        <Route path="/" element={<LoginRoute />} />
+      </Routes>
     </div>
   );
 }

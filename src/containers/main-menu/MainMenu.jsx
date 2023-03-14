@@ -2,7 +2,14 @@ import "./MainMenu.styles.scss";
 import Navbar from "components/shared/navbar/Navbar";
 import ScreenText from "components/shared/screen-text/ScreenText";
 import CardList from "components/main-menu/card-list/CardList";
+
+import { AuthContext } from "context/auth-context/AuthContext";
+import { useContext } from "react";
+
 const MainMenu = () => {
+  const { isAuthenticated } = useContext(AuthContext);
+  console.log("here in main menu auth is:  ", isAuthenticated);
+
   return (
     <div className="ve-main-menu-screen">
       <Navbar halfNavbar={false} />
