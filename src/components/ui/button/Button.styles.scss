@@ -1,0 +1,88 @@
+.test-connection-button{
+   background-image: linear-gradient( to bottom, #75838B , #3B4246);
+   height: 14.14%;
+   width: 11.93rem;
+   padding: 1rem 1rem 0.7em 1rem;
+   border-radius: 3rem;
+   margin-top: 1%;
+   margin-left: 4%;
+   color: white;
+   font-size: 18px;
+}
+.log-in-button{
+   background-color: rgba(31, 62, 81, 1);
+   border-color: solid rgba(151, 151, 151, 1);
+   height: 14.14%;
+    width: 12.2rem; 
+   border-radius: 3rem;
+   margin-top: 1%;
+   margin-left:4px ;
+   padding: 1rem 0rem 0.7em 0rem;
+   color:  rgb(120,139,150,1);
+   font-size: 18px;
+}
+.connection-display-button{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgba(17,52,70,.53);
+   border-width: 1px;
+   border-color: solid rgb(53,81,93,1);
+   color: white;
+   width: 200px;
+   height: 37px;
+   border-radius: 3rem;
+   padding: .8rem 0.8rem;
+   color: white;
+   font-size: 16px;
+}
+.log-out-button{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgba(17,52,70,.53);
+   border-width: 1px;
+   border-color: solid rgb(53,81,93,1);
+   color: white;
+   width: 150px;
+   height: 37px;
+   border-radius: 3rem;
+   padding: .8rem 0.8rem;
+   color: white;
+   font-size: 16px;
+   margin-left: 2%;
+   
+}
+
+.hamButton{
+   display: flex;
+   justify-content: center;
+   height: 55px;
+   width: 55px;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 850px){
+   .hamButton{
+     visibility: inherit;
+   }
+   .log-out-button{
+      width: 0px;
+      height: 0px;
+      border-radius: 0rem;
+      padding: 0rem;
+      color: white;
+      font-size: 1;
+      visibility: hidden;
+   }
+   .connection-display-button{
+      width: 0px;
+      height: 0px;
+      border-radius: 0rem;
+      padding: 0rem;
+      color: white;
+      font-size: 1;
+      visibility: hidden;
+   }
+   
+}

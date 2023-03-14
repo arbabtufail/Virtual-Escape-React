@@ -1,0 +1,16 @@
+.input-textField{
+    background-color: rgba(58,78,90,1);
+    border-width: 1px;
+    border-color: solid rgb(255,255,255,1);
+    color: white;
+    width: 23.41rem;
+    border-radius: 3rem;
+    padding: 1rem 1rem 0.6rem 1rem;
+    margin-bottom: 5px;
+    font-size: 18px;
+
+}
+
+::placeholder{
+    color: white;
+}
