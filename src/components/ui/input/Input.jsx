@@ -9,7 +9,7 @@ function Input(props) {
       style={{ color: "white" }}
       value={props.value}
       onChange={props.handleChange}
-      minLength={8}
+      maxLength={props.maximumLength}
       required
     />
   );

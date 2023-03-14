@@ -1,0 +1,23 @@
+.card{
+    text-align: center;
+    width: 281.44px;
+    height: 350px;
+    background-image: url('../../../assets/icons/mask.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.card:hover{
+    background-image: url('../../../assets/icons/redMask.png');
+}
+
+.card-logo-center{
+    margin-top: 15px;
+    }
+.card-sentence{
+       
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 32px;
+        font-family: 'Montserrat';
+    }
