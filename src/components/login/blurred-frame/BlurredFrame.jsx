@@ -1,16 +1,16 @@
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "context/auth-context/AuthContext";
 import "./BlurredFrame.styles.scss";
 import Input from "components/ui/input/Input";
 import Button from "components/ui/button/Button";
 import ScreenText from "components/shared/screen-text/ScreenText";
 import FingerPrint from "assets/icons/finger.png";
-
+import { useAuthContext } from "context/AuthContainer";
 const BlurredFrame = () => {
   const [password, setPassword] = useState("");
   const [isDisabledValid, setIsDisabledValid] = useState(true);
-  const { isAuthenticated, setIsAuthenticated } = useContext(AuthContext);
+  const { isAuthenticated, setIsAuthenticated } = useAuthContext();
+
   const navigate = useNavigate();
 
   function handleChange(event) {

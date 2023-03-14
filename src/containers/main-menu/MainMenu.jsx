@@ -3,7 +3,7 @@ import Navbar from "components/shared/navbar/Navbar";
 import ScreenText from "components/shared/screen-text/ScreenText";
 import CardList from "components/main-menu/card-list/CardList";
 
-import { AuthContext } from "context/auth-context/AuthContext";
+import { AuthContext } from "context/AuthContext";
 import { useContext } from "react";
 
 const MainMenu = () => {

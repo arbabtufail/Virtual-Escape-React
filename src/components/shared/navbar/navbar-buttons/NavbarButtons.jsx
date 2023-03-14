@@ -4,7 +4,7 @@ import LogOutImage from "assets/icons/logout.png";
 import ConnectionsImage from "assets/icons/connections.png";
 import HamIcon from "assets/icons/ham.png";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "context/auth-context/AuthContext";
+import { AuthContext } from "context/AuthContext";
 import { useContext } from "react";
 
 const NavbarButtons = () => {
