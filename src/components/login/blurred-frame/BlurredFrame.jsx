@@ -13,10 +13,6 @@ const BlurredFrame = () => {
   const { isAuthenticated, setIsAuthenticated } = useContext(AuthContext);
   const navigate = useNavigate();
 
-  console.log("lllllll", isDisabledValid);
-  console.log("auth is:  ", isAuthenticated);
-  console.log("password length is:  ", password.length);
-
   function handleChange(event) {
     setPassword(event.target.value);
     if (event.target.value.length === 8) {
@@ -29,7 +25,6 @@ const BlurredFrame = () => {
   }
 
   const onClickHandleChange = () => {
-    console.log("here on click");
     if (password.length === 8) {
       navigate("/home");
     }
