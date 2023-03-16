@@ -6,8 +6,8 @@ import Button from "components/ui/button/Button";
 import FingerPrint from "assets/icons/finger.png";
 import { useAuthContext } from "context/AuthContainer";
 import { MAIN_ROUTE } from "containers/routes/constants";
+import FingerPrint2 from "assets/icons/fingerprint.svg";
 import LoginScreenText from "../login-screen-text/LoginScreenText";
-
 import { Tooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
 
@@ -34,9 +34,7 @@ const BlurredFrame = () => {
     setLogin("tokenString");
   };
 
-  function handleSubmit(event) {
-    event.preventDefault();
-  }
+  function handleSubmit(event) {}
 
   return (
     <div className="full-div">
@@ -68,16 +66,30 @@ const BlurredFrame = () => {
 
             <div className="button-container">
               <Button buttonClass="test-connection-button">
-                Test Connection
+                {/* Test Connection */}
+                TEST CONNECTION
               </Button>
-              <Button
-                type="submit"
-                buttonClass="log-in-button"
-                onClickHandler={onClickHandleChange}
-                isDisabled={isDisabledValid}
-              >
-                LOG IN <img src={FingerPrint} alt="" />
-              </Button>
+              {isDisabledValid ? (
+                <Button
+                  type="submit"
+                  buttonClass="log-in-button"
+                  onClickHandler={onClickHandleChange}
+                  isDisabled={isDisabledValid}
+                >
+                  LOG IN{" "}
+                  <img className="fingerprint" src={FingerPrint} alt="" />
+                </Button>
+              ) : (
+                <Button
+                  type="submit"
+                  buttonClass="log-in-button"
+                  onClickHandler={onClickHandleChange}
+                  isDisabled={isDisabledValid}
+                >
+                  LOG IN{" "}
+                  <img className="fingerprint" src={FingerPrint2} alt="" />
+                </Button>
+              )}
             </div>
           </form>
         </div>

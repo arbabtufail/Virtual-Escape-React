@@ -19,7 +19,7 @@ const NavbarButtons = () => {
   return (
     <div className="main-menu-navbar-right-top">
       <Button buttonClass="connection-display-button">
-        <img className="img3" src={ConnectionsImage} alt="" />6 CONNECTIONS
+        <img className="img3" src={ConnectionsImage} alt="" />6 CONNECTED
       </Button>
       <Button buttonClass="log-out-button" onClickHandler={onClickHandleChange}>
         <img className="img4" src={LogOutImage} alt="" />

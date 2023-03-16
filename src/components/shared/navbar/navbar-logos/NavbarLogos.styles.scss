@@ -1,33 +1,38 @@
 .logos-container{
     display: flex;
     align-content: start;
+    margin-left: 15%;
+    
 }
 
 .logo1-div{
-    margin-top: 3%;
-    margin-left: 15%;
+    margin-top: 2%;
+    
 }
 
 .logo2-div{
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 15px;
 }
 .logo1-img{
-    height: 35px;
-    width: 137.89px;
+    height: 30px;
+    width: 120px;
 }
 .logo2-img{
-    height: 38px;
+    height: 30px;
     width: 99px;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
     .logo1-img{
         height: 35px;
-        width:60.89px;
+        width:70.89px;
     }
     .logo2-img{
         height: 35px;
         width: 60px;
+    }
+    .logo2-div{
+        margin-left: 10px;
     }
     
 }

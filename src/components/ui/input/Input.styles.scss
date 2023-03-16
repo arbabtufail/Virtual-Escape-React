@@ -5,7 +5,7 @@
     color: white;
     width: 23.41rem;
     border-radius: 3rem;
-    padding: 1rem 1rem 0.6rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     margin-bottom: 5px;
     font-size: 18px;
 
@@ -13,4 +13,23 @@
 
 ::placeholder{
     color: white;
+}
+@media only screen and (max-width: 530px){
+    .input-textField{
+        height: 12.19%;
+        width: 72.81%;
+        border-radius: 3rem;
+        padding: 1rem 1rem 0.6rem 1rem;
+        margin-bottom: 5px;
+        font-size: 10px;
+    
+    }
+    .oval{
+    width: 23px;
+    height: 23px;
+    background: #6f0202;
+    border-radius: 50%;
+    display: flex;
+     justify-content: center;
+    }
 }

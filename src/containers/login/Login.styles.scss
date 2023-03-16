@@ -1,8 +1,10 @@
 .ve-login-screen{
-    height: 100vh;
-    background: url("../../assets/login/login.jpg") no-repeat center center fixed; 
+    min-height: 100vh;
+    background: url("../../assets/login/login.jpg") no-repeat
+         center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+

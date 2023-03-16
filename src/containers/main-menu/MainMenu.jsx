@@ -8,7 +8,7 @@ const MainMenu = () => {
     <div className="ve-main-menu-screen">
       <Navbar halfNavbar={false} />
       <MenuScreenText className="main-menu-texts">
-        <div className="main-menu-sentence1">VIRTUAL ESCAPE PRESENT</div>
+        <div className="main-menu-sentence1">VIRTUAL ESCAPE PRESENTS</div>
         <div className="main-menu-sentence2">TIME'S TICKING</div>
       </MenuScreenText>
       <CardList />

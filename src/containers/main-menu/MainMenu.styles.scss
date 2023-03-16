@@ -1,10 +1,11 @@
 .ve-main-menu-screen{
-    height: 100vh;
-    background: url("../../assets/main-menu/mainmenu.png") no-repeat center center fixed; 
+    background: url("../../assets/main-menu/mainmenu.png") no-repeat
+        center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  min-height: 100vh;
 }
 .main-menu-sentence1{
     text-align: center;
@@ -19,3 +20,4 @@
     font-family: 'Montserrat',sans-serif;
     margin-bottom: 50px;
 }
+

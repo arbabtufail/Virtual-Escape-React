@@ -4,9 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
     }
 .escape-login-container{
-    margin-top: 1%;
+    margin-top: 4%;
     margin-left: 1%;
     margin-right:1%;
     background: rgba(17, 52, 70, 0.53);
@@ -27,7 +28,7 @@
 .oval{
     width: 25px;
     height: 26px;
-    background: #6f0202;
+    background:#6f0202;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -54,16 +55,58 @@ p{
     margin-bottom: 100px;
 }
 
-.sentence{
-    color: white;
-    font-size: 24px;
-    font-family: 'Montserrat';
-    margin-bottom:2% ;
-}
+
 .heading-text{
-        color: white;
-       font-family: 'Montserrat', sans-serif;
-       font-size: 40px;
-       font-weight: 10;
-       margin-bottom: 15px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
     }
+
+.sentence{
+        color: white;
+        font-size: 24px;
+        font-family: 'Montserrat';
+        margin-top: 5%;
+        margin-bottom:1.5% ;
+}
+.button-container{
+    margin-top: 0.5%;
+}
+
+
+@media only screen and (max-width: 530px){
+
+    .escape-login-container{
+        margin-top: 4%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 410px;
+        width: 510px;
+        border-radius: 10px;
+        background: rgba(17, 52, 70, 0.53);
+        backdrop-filter: blur(40px);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(53, 81, 93, 1);
+        display: flex;
+        align-items: center;
+    
+    }
+
+    .heading-text{
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        }
+    
+    .sentence{
+            color: white;
+            font-size: 20px;
+            font-family: 'Montserrat';
+            margin-top: 5%;
+            margin-bottom:1.5% ;
+    }
+}
