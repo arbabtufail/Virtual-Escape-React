@@ -4,16 +4,17 @@
    width: 11.93rem;
    padding: 1rem 1rem 0.7em 1rem;
    border-radius: 3rem;
+   border:none;
    margin-top: 1%;
    margin-left: 4%;
    color: white;
    font-size: 18px;
 }
 .log-in-button{
-   background-color: rgba(31, 62, 81, 1);
-   border-color: solid rgba(151, 151, 151, 1);
+   background:linear-gradient(#f80705, #7b1e1d);
+   border:none;
    height: 14.14%;
-    width: 12.2rem; 
+   width: 12.2rem; 
    border-radius: 3rem;
    margin-top: 1%;
    margin-left:4px ;
@@ -21,13 +22,15 @@
    color:  rgb(120,139,150,1);
    font-size: 18px;
 }
+.log-in-button:disabled {
+   background: rgba(17, 52, 70, 0.53);
+}
 .connection-display-button{
    display: flex;
    justify-content: space-around;
    align-items: center;
    background-color: rgba(17,52,70,.53);
-   border-width: 1px;
-   border-color: solid rgb(53,81,93,1);
+   border:none;
    color: white;
    width: 200px;
    height: 37px;

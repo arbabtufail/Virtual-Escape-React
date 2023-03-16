@@ -4,15 +4,16 @@ import LogOutImage from "assets/icons/logout.png";
 import ConnectionsImage from "assets/icons/connections.png";
 import HamIcon from "assets/icons/ham.png";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "context/AuthContext";
-import { useContext } from "react";
+import { useAuthContext } from "context/AuthContainer";
+import { LOGIN_ROUTE } from "containers/routes/constants";
 
 const NavbarButtons = () => {
-  const { setIsAuthenticated } = useContext(AuthContext);
+  const { setLogout } = useAuthContext();
   const navigate = useNavigate();
+
   const onClickHandleChange = () => {
-    setIsAuthenticated(false);
-    navigate("/");
+    setLogout();
+    navigate(LOGIN_ROUTE);
   };
 
   return (
