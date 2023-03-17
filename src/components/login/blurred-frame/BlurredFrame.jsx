@@ -66,7 +66,6 @@ const BlurredFrame = () => {
 
             <div className="button-container">
               <Button buttonClass="test-connection-button">
-                {/* Test Connection */}
                 TEST CONNECTION
               </Button>
               {isDisabledValid ? (
