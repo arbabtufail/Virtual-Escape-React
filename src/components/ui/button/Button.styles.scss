@@ -24,20 +24,14 @@
    color:  #FFFFFF;
    font-size: 1em;
    cursor: pointer;
+
+   &:disabled{
+      background: rgba(17, 52, 70, 0.53);
+      color:  rgb(120,139,150,1);
+      cursor: default;
+   }
 }
-.log-in-button:disabled {
-   background: rgba(17, 52, 70, 0.53);
-   color:  rgb(120,139,150,1);
-   cursor: default;
-   border:none;
-   height: 14.14%;
-   width: 12.6rem; 
-   border-radius: 3rem;
-   margin-top: 1%;
-   margin-left:2% ;
-   padding: 1em 0em 0.7em 0em;
-   font-size: 1em;
-}
+
 
 .connection-display-button{
    display: flex;
