@@ -76,6 +76,11 @@ p{
 }
 
 
+.disabled-fingerprint{
+    width: 16.2px;
+    height: 16.2px;
+}
+
 @media only screen and (max-width: 530px){
 
     .escape-login-container{
@@ -108,5 +113,11 @@ p{
             font-family: 'Montserrat';
             margin-top: 5%;
             margin-bottom:1.5% ;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .oval{
+        margin-left: -9%;
     }
 }

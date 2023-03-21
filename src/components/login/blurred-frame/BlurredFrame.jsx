@@ -76,7 +76,11 @@ const BlurredFrame = () => {
                   isDisabled={isDisabledValid}
                 >
                   LOG IN{" "}
-                  <img className="fingerprint" src={FingerPrint} alt="" />
+                  <img
+                    className="disabled-fingerprint"
+                    src={FingerPrint}
+                    alt=""
+                  />
                 </Button>
               ) : (
                 <Button

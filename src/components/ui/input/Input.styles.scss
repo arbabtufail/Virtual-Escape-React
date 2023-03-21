@@ -8,18 +8,24 @@
     padding: 1rem 1rem 1rem 1.5rem;
     margin-bottom: 5px;
     font-size: 18px;
+    
+    &::placeholder{
+        color: white;
+    }
+
+    &:focus{
+        outline: none !important;
+        box-shadow: 0 0 10px #FFFF;
+    }
 
 }
 
-::placeholder{
-    color: white;
-}
 @media only screen and (max-width: 530px){
     .input-textField{
         height: 12.19%;
         width: 72.81%;
         border-radius: 3rem;
-        padding: 1rem 1rem 0.6rem 1rem;
+        padding: 1rem 1rem 0.9rem 1rem;
         margin-bottom: 5px;
         font-size: 10px;
     
